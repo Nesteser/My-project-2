@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Montserrat:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Главная</title>
+  </head>
+  <body>
+    <div class="top center">
+      <div class="section center">
+        <h1 class="h1">Добро пожаловать на мой сайт !</h1>
+        <p class="p">
+          Вам предстоит пройти несколько увлекательных игр. Если готов нажимай
+          поехали и приступай
+        </p>
+        <button class="button">Поехали!</button>
+      </div>
+    </div>
+    <div class="game center">
+      <div class="for center">
+        <div class="for_game for_game_1">Игра 1</div>
+        <div class="for_game for_game_2">Игра 2</div>
+        <div class="for_game for_game_3">Игра 3</div>
+      </div>
+    </div>
+    <div class="footer center">
+      <div class="footer_content center">
+        <div class="footer_go center">
+          <h2 class="h2">Времена года!</h2>
+          <p class="footer_p">
+            Нажмите кнопку играть, введите номер месяца (от 1 до 12) и вы
+            узнаете к какому времени года он относится
+          </p>
+          <button onclick="game_1();" class="button">Играть!</button>
+        </div>
+        <img src="img/img.svg" alt="" />
+      </div>
+    </div>
+    <div class="footer center">
+      <div class="footer_content_2 center">
+        <img src="img/img2.svg" alt="" />
+        <div class="footer_go center">
+          <h2 class="h2">Запомни слова !</h2>
+          <p class="footer_p">
+            При нажатии на кнопку играть, вы увидите несколько слов, которые вам
+            необходимо запомнить.
+          </p>
+          <button onclick="game_2();" class="button">Играть!</button>
+        </div>
+      </div>
+    </div>
+    <div class="footer_3 center">
+      <div class="footer_content_3 content">
+        <h2 class="h2_2">Игра в загадки</h2>
+        <p class="footer_p_2">
+          Компьютер загадывает загадку, вам необходимо ее угадать, если вы дадите не правильный ответ, то компьютер даст вам подсказку. У вас будет три попытки и две подсказки.
+        </p>
+        <button onclick="game_3();" class="button">Играть!</button>
+      </div>
+    </div>
+    <div class="footer_4 content">
+        <p class="p_f center">Все права защищены</p>   
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

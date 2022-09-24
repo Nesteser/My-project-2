@@ -1,0 +1,229 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+body {
+  font-family: "Lato", sans-serif;
+  font-family: "Montserrat", sans-serif;
+}
+.center {
+  padding-left: calc(50% - 600px);
+  padding-right: calc(50% - 600px);
+}
+.top {
+  height: 1024px;
+  background-image: url(img/img.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  padding-top: 220px;
+}
+.h1 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 78px;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  width: 700px;
+  padding-bottom: 32px;
+}
+.p {
+  width: 481px;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 32px;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  padding-bottom: 57px;
+}
+.button {
+  background: #9c0332;
+  border-radius: 30px;
+  width: 234.06px;
+  height: 48.6px;
+  transition: all 1s;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  justify-content: center;
+  &:hover {
+    background-color: #fff;
+    color: black;
+  }
+}
+
+.game {
+  background-image: url(img/game.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.for {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 128px;
+}
+.for_game {
+  transition: all 0.3s;
+  align-items: flex-end;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 120px;
+  display: flex;
+  color: #ffffff;
+  width: 379px;
+  height: 300px;
+  background: linear-gradient(180deg, rgba(39, 1, 15, 0) 0%, #001944 100%),
+    url(0231.jpg);
+  border-radius: 16px;
+}
+
+.for_game:hover {
+  transform: scale(1.05);
+}
+.for_game_1 {
+  background-image: url(img/game_2.jpg);
+  box-sizing: border-box;
+  padding-left: 32px;
+}
+.for_game_2 {
+  background-image: url(img/game_3.jpg);
+  box-sizing: border-box;
+  padding-left: 32px;
+}
+.for_game_3 {
+  background-image: url(img/game_1.jpg);
+  box-sizing: border-box;
+  padding-left: 32px;
+}
+.footer {
+  background-image: url(img/game.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  &_content {
+    display: flex;
+    gap: 133px;
+    padding-bottom: 233px;
+    padding-top: 233px;
+  }
+  &_go {
+    display: flex;
+    flex-direction: column;
+  }
+  &_p {
+    padding-top: 49px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 32px;
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+  }
+  &_img {
+    width: 485px;
+    height: 333px;
+  }
+}
+.h2 {
+  padding-bottom: 32px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 59px;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.footer_content_2 {
+  display: flex;
+  gap: 132px;
+  padding-bottom: 239px;
+  padding-top: 239px;
+}
+//   Третья игра
+.footer_3 {
+  height: 800px;
+  background-image: url(img/img_2.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.footer_content_3 {
+  gap: 32px;
+  display: flex;
+  padding-top: 276px;
+  padding-bottom: 288px;
+  flex-direction: column;
+  align-items: center;
+}
+.h2_2 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 59px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #ffffff;
+}
+.footer_p_2 {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 32px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #ffffff;
+}
+
+.footer_4 {
+  height: 80px;
+  background: #000915;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.p_f {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  justify-content: space-around;
+  padding-top: 32px;
+}
+
+@import "mobile";

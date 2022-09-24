@@ -1,0 +1,75 @@
+@media (max-width: 767px) {
+  .center {
+    padding-left: calc(50% - 171px);
+    padding-right: calc(50% - 171px);
+  }
+  .section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .h1 {
+    font-size: 32px;
+    line-height: 39px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+  }
+  .p {
+    font-size: 14px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+  }
+
+  .for {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+  }
+  .for_game {
+    width: 343px;
+    height: 300px;
+    align-items: flex-end;
+  }
+
+  .h2 {
+    font-size: 32px;
+    line-height: 39px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+  }
+  .footer_p {
+    font-size: 14px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+  }
+  .footer_content {
+    display: flex;
+    flex-direction: column;
+  }
+  .footer_go {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .footer_content_2 {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .h2_2 {
+    font-size: 32px;
+    line-height: 39px;
+  }
+
+  .footer_p_2 {
+    font-size: 14px;
+    line-height: 22px;
+  }
+}
